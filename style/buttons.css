@@ -1,0 +1,79 @@
+.buttons {
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 35px;
+    border: 0.0625rem solid var(--border-color);
+    transition: all 0.2s;
+    text-align: center;
+    color: var(--text-btns);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.06rem 0.2rem;
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 0.999, 0, 0);
+    overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
+}
+.devicesbtn {
+    padding: 0.32rem 0.4rem 0.32rem 0.4rem;
+    font-size: calc(35% + 0.35vw);
+    border-radius: 17px;
+    height: 2rem;
+    font-weight: 300;
+    /* position: absolute !important; */
+    background-color: var(--background-btn-devices);
+    background-image: linear-gradient(to top right, var(--bg-image-btn-from), var(--bg-image-btn-to));
+    border-color: var(--border-color-devices);
+    color: var(--text-btns);
+}
+.wrapperbtn {
+    background: var(--background-btn-wrapper);
+    background-image: linear-gradient(to top right, var(--bg-image-btn-from), var(--bg-image-btn-to));
+    font-family: 'Titillium Web', sans-serif;
+}
+.copybtn {
+    padding: 0.15rem 0.5rem;
+    font-size: 1.5vmin;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 4.5rem;
+}
+
+/* BOTONES ANIMACION*/
+.buttons::before{
+    background-color: var(--background-btn-wrapper-hover1);
+}
+.buttons::after{
+    background-color: var(--background-btn-wrapper-hover2);
+}
+.buttons::before, .buttons::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 100%;
+    left: 0;
+    z-index: -1;
+    transition: transform 0.3s;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    will-change: transform; 
+}
+.buttons:hover::before, .buttons:hover::after {
+    transform: translate3d(0, 100%, 0); 
+} 
+.buttons:hover::after {
+    transition-delay: 0.15s; 
+}
+.buttons:hover {
+    background-color: var(--hover-btn-wrapper);
+    font-weight: 600;
+    border-color: var(--border-color-wrapper-hover);
+    color: var(--text-hover-button-devices);
+}
+.buttons:active{
+    background-color: var(--active-btn-wrapper);
+    border-color: var(--border-color-wrapper-hover);
+    color: var(--text-active-btn);
+}

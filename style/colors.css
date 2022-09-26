@@ -1,0 +1,86 @@
+:root {
+    --background: #ECF0F5;
+    /* --background: #ced0e0; */
+    --background-SBN-color: #b90025;
+    --border-line-color: #300009;
+    --bg-color-body: #E9EDF3;
+    /* --bg-color-body: #f2f2f7; */
+    --background-wrapper: #E9EDF3;
+    /* --background-wrapper: #d6d8e8; */
+    --background-btn-wrapper: #000000;
+    --background-msg-wrapper: #8181813a;
+    --bg-image-txt-from: #ff2a2a;
+    --bg-image-txt-to: #5c0e18;
+    --bg-image-btn-from: #0000004f;
+    --bg-image-btn-to: #bb00004f;
+    --bg-image-msg-from: #5c0e18;
+    --bg-image-msg-to: #0e0e0e;
+    --bg-image-body-from: #DBDFE83f;
+    --bg-image-body-to: #c5ceed3f;
+    --background-btn-wrapper-hover1: #000000;
+    --background-btn-wrapper-hover2: #3e1515;
+    --border-color-wrapper-hover: #000000;
+    --hover-btn-wrapper: #f3f3f3;
+    --active-btn-wrapper: #1f1f1f;
+    --background-btn-devices: #000000;
+    --hover-btn-devices: #f9f9f9;
+    --active-btn-devices: #2e2e2e;
+    --text: #130f0f;
+    --text-btns: #f9f9f9;
+    --text-button-devices: #2D0F3C;
+    --text-hover-button-devices: #f4f9ff;
+    --text-active-btn: #C7C7FE;
+    --border-color: #68768d50;
+    --border-color-devices: #68768d50;
+    /* --logo-image: url(../img/Securitas\ Direct\ Logo\ C.png); */
+    --dropshadow: #ffffff30;
+    --bordercolor-msg: #85001b;
+    --text-shadow: #e3aeff00;
+    --color-SBN-msg: crimson;
+    --h1-grad-color: -webkit-linear-gradient(73deg, #105488 0%, #2a0f75 100%);
+    --opacity-picture: 0.35;
+    --arrow-color: #300000;
+    --svg-color1: #4e0000;
+}
+[data-theme="oscuro"] {
+    --background: #05070A;
+    --background-SBN-color: #262432;
+    --border-line-color: #262b30;
+    --bg-color-body: #0d1117;
+    --background-wrapper: #0d1117;
+    --background-btn-wrapper: #19112c;
+    --background-msg-wrapper: #6a5a7257;
+    --bg-image-txt-from: #ff1100;
+    --bg-image-txt-to: #0090ff;
+    --bg-image-btn-from: #ae3f3780;
+    --bg-image-btn-to: #16568780;
+    --bg-image-msg-from: #5aa9e647;
+    --bg-image-msg-to: #b3001b47;
+    --bg-image-body-from: #005c793d;
+    --bg-image-body-to: #1a00283d;
+    --background-btn-wrapper-hover1: #33214d;
+    --background-btn-wrapper-hover2: #e7d9f3;
+    --border-color-wrapper-hover: #66566D;
+    --hover-btn-wrapper: #5a5f73;
+    --active-btn-wrapper: #ffffff;
+    --background-btn-devices: #0c0012;
+    --hover-btn-devices: #202124;
+    --active-btn-devices: #ffffff;
+    --text: #E8CDF5;
+    --text-btns: #E8CDF5;
+    --text-button-devices: #E8C0FE;
+    --text-hover-button-devices: #110916;
+    --text-active-btn: #4100a9;
+    --border-color: #110916;
+    --border-color-devices: #110916;
+    --logo-image: url(../img/Securitas\ Direct\ Logo\ C.png);
+    --dropshadow: #edcaff50;
+    --important_text: #8b00b9;
+    --bordercolor-msg: #50005e;
+    --text-shadow: #E2AEFF;
+    --color-SBN-msg: #050a0e;
+    --h1-grad-color: -webkit-linear-gradient(73deg, #5a67ff 0%, #ff4444 100%);
+    --opacity-picture: 0.35;
+    --arrow-color: #d3b1ff;
+    --svg-color1: #44009A;
+}
