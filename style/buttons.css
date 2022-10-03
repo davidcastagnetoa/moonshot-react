@@ -77,3 +77,28 @@
     border-color: var(--border-color-wrapper-hover);
     color: var(--text-active-btn);
 }
+/* FOOTER BUTTONS */
+
+.protom_guide, .dcr_guide {
+    width: 7.4rem;
+    font-size: 0.905rem;
+    border-radius: 25px;
+    height: 1.75rem;
+}
+.homebtn {
+    width: 5.8rem;
+    justify-content: space-between;
+}
+.homebtn {
+    margin-right: 0.8rem;
+    align-items: center;
+}
+.backbtn, .homebtn {
+    padding: 0.725rem 1rem;
+    border-radius: 25px;
+}
+.day-night, .backbtn, .homebtn {
+    padding: 1.125rem 1rem;
+    font-size: 1.25rem;
+    margin-right: 0.8rem;
+}
