@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './header/header';
-import Footer from './footer/footer';
+import Header from './header/header_btn';
+import Footer from './footer/footer_btn';
 import Devices from "./devices";
 
 export default class App extends Component {

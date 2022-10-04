@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CopyBtn } from "../buttons/headerButtons";
-import { ToggleBtn } from "../buttons/headerButtons";
+import '../header/header.css';
 
 const rawButtonDataCopy = [
     {title: "extensiones", className: "buttons wrapperbtn copybtn", id:"copyExt", innerHTML:"Copiar"},
