@@ -10,7 +10,7 @@ export default class App extends Component {
       <div className='app'>
         <h1>Moonshot's Guide</h1>
         <h3>By David Castagneto</h3>
-        <Headerbtn heading="Moonshot Devices" />
+        {/* <Headerbtn heading="Moonshot Devices" /> */}
         <Header/>
         <Devices heading="Seleccione Dispositivo" />
         <Footerbtn heading="Este documento será sometido a continuas modificaciones, se trata de una guía interactiva de apoyo, en ningun caso reemplazará a la guía del Gestor Documental. Para cambios, sugerencias y actualizaciones, por favor contacte con" />

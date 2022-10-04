@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import { CopyBtn } from "../buttons/headerButtons";
 import '../header/header.css';
 
+// function copyToClickBoard(id_elemento) {
+//     let aux = document.createElement("input");
+//     aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+//     document.body.appendChild(aux);
+//     aux.select();
+//     document.execCommand("copy");
+//     document.body.removeChild(aux);
+//   }
+
 const rawButtonDataCopy = [
     {title: "extensiones", className: "buttons wrapperbtn copybtn", id:"copyExt", innerHTML:"Copiar"},
     {title: "instpruebas", className: "buttons wrapperbtn copybtn", id:"copyInst", innerHTML:"Copiar"}
