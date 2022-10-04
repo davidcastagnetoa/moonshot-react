@@ -7,7 +7,7 @@ const rawButtonFooter = [
     {title: "home", className: "buttons wrapperbtn homebtn", id:"home", innerHTML:"HOME"}
 ];
 
-export default class Footer extends Component {
+export default class Footerbtn extends Component {
     constructor(props) {
         super(props);
 

@@ -7,7 +7,7 @@ const rawButtonDataCopy = [
     {title: "instpruebas", className: "buttons wrapperbtn copybtn", id:"copyInst", innerHTML:"Copiar"}
 ];
 
-export default class Header extends Component {
+export default class Headerbtn extends Component {
     constructor(props) {
         super(props);
 
