@@ -1,19 +1,11 @@
 import React, { Component } from "react";
 import { CopyBtn } from "../buttons/headerButtons";
-import '../header/header.css';
+import { IoCopyOutline } from "react-icons/io5";
 
-// function copyToClickBoard(id_elemento) {
-//     let aux = document.createElement("input");
-//     aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
-//     document.body.appendChild(aux);
-//     aux.select();
-//     document.execCommand("copy");
-//     document.body.removeChild(aux);
-//   }
 
 const rawButtonDataCopy = [
-    {title: "extensiones", className: "buttons wrapperbtn copybtn", id:"copyExt", innerHTML:"Copiar"},
-    {title: "instpruebas", className: "buttons wrapperbtn copybtn", id:"copyInst", innerHTML:"Copiar"}
+    {title: "extensiones", className: "buttons wrapperbtn copybtn", id:"copyExt", innerHTML:"Copiar", icon: <IoCopyOutline/>},
+    {title: "instpruebas", className: "buttons wrapperbtn copybtn", id:"copyInst", innerHTML:"Copiar", icon: <IoCopyOutline/>}
 ];
 
 export default class Headerbtn extends Component {
@@ -25,22 +17,19 @@ export default class Headerbtn extends Component {
             isEnable: true
         };
     }
-
     render() {
         const copyBtns = this.state.buttonData.map(copyBtn => {
             return(
-                    <button key={copyBtn.title} className={copyBtn.className} id={copyBtn.id}>
-                        <CopyBtn 
-                        id={copyBtn.id} 
-                        className={copyBtn.className}
-                        innerHTML={copyBtn.innerHTML}/>
+                    <button key={copyBtn.title} className={copyBtn.className} id={copyBtn.id} icon={copyBtn.icon}>
+                        <div>
+                        {copyBtn.icon}
+                        </div>
+                        <CopyBtn icon={copyBtn.icon} id={copyBtn.id} className={copyBtn.className} innerHTML={copyBtn.innerHTML}/>
                     </button>
             );
         });
-
         return (
             <header>
-                <p>{this.props.heading}</p>
                 {copyBtns}
             </header>
         );

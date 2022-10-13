@@ -1,15 +1,15 @@
-.buttons {
+.buttons{
     cursor: pointer;
     border-width: 1px;
     border-radius: 35px;
-    border: 0.0625rem solid var(--border-color);
+    border: 0.0625em solid var(--border-color);
     transition: all 0.2s;
     text-align: center;
     color: var(--text-btns);
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0.06rem 0.2rem;
+    margin: 0.06em 0.2em;
     visibility: inherit;
     opacity: 1;
     transform: matrix(1, 0, 0, 0.999, 0, 0);
@@ -17,12 +17,12 @@
     font-family: 'Titillium Web', sans-serif;
 }
 .devicesbtn {
-    padding: 0.32rem 0.4rem 0.32rem 0.4rem;
-    font-size: calc(35% + 0.35vw);
+    padding: 0.32em 0.4em 0.32em 0.4em;
+    font-size: calc(50% + 0.35vw);
     border-radius: 17px;
-    height: 2rem;
+    height: 2em;
     font-weight: 300;
-    /* position: absolute !important; */
+    /* position: absolute; */
     background-color: var(--background-btn-devices);
     background-image: linear-gradient(to top right, var(--bg-image-btn-from), var(--bg-image-btn-to));
     border-color: var(--border-color-devices);
@@ -34,11 +34,18 @@
     font-family: 'Titillium Web', sans-serif;
 }
 .copybtn {
-    padding: 0.15rem 0.5rem;
+    padding: 0.15em 0.5em;
     font-size: 1.5vmin;
     flex-direction: row;
     justify-content: space-between;
-    width: 4.5rem;
+    width: 4.5em;
+}
+body > div > div > div > button.buttons.devicesbtn > div > svg{
+    font-size: 16px;
+    margin: 0 0.5em;
+}
+body > div > div > div > button.buttons.devicesbtn > p{
+    margin: 0 0.5em;
 }
 
 /* BOTONES ANIMACION*/
@@ -80,25 +87,27 @@
 /* FOOTER BUTTONS */
 
 .protom_guide, .dcr_guide {
-    width: 7.4rem;
-    font-size: 0.905rem;
+    width: 7.4em;
+    font-size: 0.905em;
     border-radius: 25px;
-    height: 1.75rem;
+    height: 1.75em;
 }
 .homebtn {
-    width: 5.8rem;
+    width: 5.8em;
     justify-content: space-between;
 }
 .homebtn {
-    margin-right: 0.8rem;
+    margin-right: 0.8em;
     align-items: center;
 }
 .backbtn, .homebtn {
-    padding: 0.725rem 1rem;
+    padding: 0.725em 1em;
     border-radius: 25px;
 }
 .day-night, .backbtn, .homebtn {
-    padding: 1.125rem 1rem;
-    font-size: 1.25rem;
-    margin-right: 0.8rem;
+    padding: 1.125em 1em;
+    font-size: 1.25em;
+    margin-right: 0.8em;
 }
+
+/* Device Buttons */

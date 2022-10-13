@@ -1,0 +1,46 @@
+body > main.device-wrapper > header, body > main > div.head-wrapper{
+    height: 78px;
+}
+body > div > div.head-wrapper{
+    height: 78px;
+}
+.head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
+    color: var(--text);
+}
+.imgsd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--logo-image);
+    width: 113px;
+    height: 70px;
+    background-size: auto;
+    margin-left: 0.6em;
+}
+.right-head-wrapper {
+    display: flex;
+    align-items: center;
+}
+.addinfo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: unset;
+    width: 22.5em;
+}
+.day-night, .backbtn, .homebtn {
+    padding: 1.125em 1em;
+    font-size: 1.25em;
+    margin-right: 0.8em;
+}
+#copyExt > p,
+#copyInst > p {
+    font-family: 'Titillium Web', sans-serif;
+    /* font-size: 0.8em; */
+    font-size: calc(50% + 0.35vw);
+}
